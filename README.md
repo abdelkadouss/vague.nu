@@ -7,7 +7,7 @@ A port for (Vague)[https://github.com/vague-theme/vague/] theme for Nushell gene
 # Use & Install
 
 first fetch the script:
-```nu
+```nushell
 let install_dir = ~/.local/share/nushell/themes/; # change base on where u want to install the theme.
 mkdir $install_dir;
 http get https://github.com/abdelkadouss/vague.nu/raw/refs/heads/main/vague.nu | save $install_dir
@@ -15,7 +15,7 @@ http get https://github.com/abdelkadouss/vague.nu/raw/refs/heads/main/vague.nu |
 
 then on ur config add:
 
-```nu
+```nushell
 use ~/.local/share/nushell/themes/vague.nu; # or the path to the theme where u install it
 
 # optionaly if you want you can override the default colors like so:
